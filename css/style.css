@@ -1,0 +1,51 @@
+header{
+	background-image: url("../images/bg.jpg");
+	position: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1,h2{
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+h2{
+	word-spacing: 50px;
+	padding-top: 20px;
+	font-size: 6rem!important;
+	letter-spacing: 10px;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 5px 8px 4px rgb(201, 0, 109);
+	animation-duration: 10s;
+}
+h1{
+	font-size: 100px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 4rem;
+	padding-top: 10px;
+	text-align: center;
+	text-shadow: 4px 3px 0px rgb(29 29 18);
+}
+.grid{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: red;
+	position: absolute;
+	display: flex;
+	flex-direction: row!important;
+	justify-content: center!important;
+	font-size: 20rem;
+	font-weight: bolder;
+	text-shadow: 5px 8px 4px black;
+}        
+
+@keyframes example{
+	0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
